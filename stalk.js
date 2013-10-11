@@ -6,7 +6,7 @@
 	/*
 		*Selector
 		*
-		*/
+	*/
 	function Selector(){}
 	Selector.prototype = {
 		stringSelect: "",
