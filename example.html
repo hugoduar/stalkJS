@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title> Example</title>
+	<script type="text/javascript" src="stalk.js"></script>
+	<style>
+	body{
+		margin: 10px 10px;
+		font-family: Helvetica;
+	}
+	#mouseOver{
+		background-color: #FF213C;
+		width: 200px;
+		height: 100px;
+		color: #FFFFFF;
+		margin: auto auto;
+		text-align: center; 
+	}
+	#consoleEvent{
+		background-color: #000001;
+		width: 230px;
+		height: 30px;
+		color: #FFFFFF;
+		margin: auto auto;
+		margin-top: 20px;
+		text-align: left;
+		font-family: Courier;
+		padding-left: 5px;
+		padding-top: 3px;
+		border-radius: 0.2em; 
+	}
+	</style>
+</head>
+<body>
+	<div id="mouseOver">
+		Mouse here!
+	</div>
+	<div id="consoleEvent">
+		Event: <code>NDDALSKJSD</code>
+	</div>
+	<script>
+		$SE('#mouseOver').sendEventDescription();
+	</script>
+</body>
+</html>
+
+
+
